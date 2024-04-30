@@ -55,8 +55,12 @@ class RegisterUser extends CI_Controller
         $config['protocol'] = 'smtp';
         $config['smtp_host'] = 'smtp.gmail.com';
         $config['smtp_port'] = '587';
-        $config['smtp_user'] = 'superkebele12345@gmail.com';
-        $config['smtp_pass'] = 'upalorfwhfshawab';
+
+        // use your email address here like
+        $config['smtp_user'] = "emailaddress@gmail.com";
+
+        // use the email address' two step verification code like
+        $config['smtp_pass'] =  "abshsdvjksd";
         $config['charset'] = 'utf-8';
         $config['wordwrap'] = TRUE;
         $config['newline'] = "\r\n";
